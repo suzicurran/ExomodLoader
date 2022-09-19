@@ -7,7 +7,7 @@ index 92eb9b4..cbd25e3 100644
  			> introFirstFire
  	
 -	* Wake Up Again
-+	* Mod Was Loaded, Thanks For Testing
++	* Mod Was Loaded
  		// second plus life
  		~if hog_numLives > 1
  		~if !hog_shipDestroyed
