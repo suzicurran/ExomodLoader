@@ -1,0 +1,10 @@
+# Ignore settings since they're user-specific
+settings.json
+
+# This should be cleaned up on every run, but just in case
+temp
+
+# Ignore contents of Mod Goes Here except help and the test mod
+Mod Goes Here/*
+!Mod Goes Here/help.txt
+!Mod Goes Here/SimpleTestMod

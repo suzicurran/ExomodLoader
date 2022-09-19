@@ -1,0 +1,5 @@
+Drop the containing folder of the mod you want to load here.
+After you do so, your file structure will look like:
+
+exomod-loader/ModGoesHere/(TheModName)/exomod_manifest.json
+exomod-loader/ModGoesHere/(TheModName)/exomod.patch

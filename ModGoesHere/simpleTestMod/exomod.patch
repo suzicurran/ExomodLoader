@@ -1,0 +1,13 @@
+diff --git a/./temp/Stories/intro.exo b/./temp/ModStories/intro.exo
+index 92eb9b4..cbd25e3 100644
+--- a/./temp/Stories/intro.exo
++++ b/./temp/ModStories/intro.exo
+@@ -103,7 +103,7 @@
+ 		** Continue
+ 			> introFirstFire
+ 	
+-	* Wake Up Again
++	* Mod Was Loaded, Thanks For Testing
+ 		// second plus life
+ 		~if hog_numLives > 1
+ 		~if !hog_shipDestroyed
