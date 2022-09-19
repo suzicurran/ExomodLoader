@@ -201,8 +201,20 @@ function getSettings() {
     if ($isSettingsFromFile) { return $loadedSettings } else { return $newSettings }
 }
 
+function displayIntroText() {
+    Write-Host -ForegroundColor Magenta "Welcome to exomod-loader!"
+    Write-Host "Before using this tool:" 
+    Write-Host "1. Remember to back up your save data, usually found in /Documents/Exocolonist."
+    Write-Host "2. Verify your game files are up to date. See docs if you need help with this."
+    Write-Host "This program comes with ABSOLUTELY NO WARRANTY."
+    Write-Host "This is free software, and you are welcome to redistribute it under certain conditions."
+    Write-Host "See COPYRIGHT and LICENSE for details."
+}
+
 
 # ===== START =====
+displayIntroText
+
 [ExomodLoaderSettingsFile] $settings = getSettings
 
 [string] $modFolderName = getModFolderName
