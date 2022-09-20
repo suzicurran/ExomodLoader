@@ -1,5 +1,5 @@
 <#
-Copyright (C) 2022  Suzi Curran
+ExomodLoader Copyright (C) 2022  Suzi Curran
 
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
@@ -220,13 +220,13 @@ function getSettings() {
 }
 
 function displayIntroText() {
-    Write-Host -ForegroundColor Magenta "Welcome to exomod-loader!"
+    Write-Host -ForegroundColor Magenta "Welcome to ExomodLoader!"
     Write-Host "Before using this tool:" 
     Write-Host "1. Remember to back up your save data, usually found in /Documents/Exocolonist."
-    Write-Host "2. Verify your game files are up to date. See docs if you need help with this."
+    Write-Host "2. Verify your game files are up to date. See README if you need help with this."
     Write-Host "This program comes with ABSOLUTELY NO WARRANTY."
     Write-Host "This is free software, and you are welcome to redistribute it under certain conditions."
-    Write-Host "See COPYRIGHT and LICENSE for details."
+    Write-Host "See LICENSE for details."
 }
 
 
