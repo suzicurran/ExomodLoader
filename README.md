@@ -13,7 +13,7 @@ ExomodLoader is a tool for modding .exo files in [I Was a Teenage Exocolonist](h
 
 ## Installation
 
-Download the latest version from Releases (TBD) and unzip the contents.
+Download the latest version from [Releases](https://github.com/suzicurran/ExomodLoader/releases) and unzip the contents.
 
 ## Usage
 
