@@ -20,7 +20,7 @@ Download the latest version from Releases (TBD) and unzip the contents.
 
 3. In the ExomodLoader folder, place the exomod you'd like to use in "ModGoesHere" folder. (See help.txt for more.) If you don't have an exomod to apply and/or just want to test if ExomodLoader if working for you, a "simpleTestExomod" has been provided for you. Its changees should be quickly visible when starting any "normal" run after the first.
 
-4. Inside the ExomodLoader folder, double-click `run.bat` and follow the prompts provided. You will need to provide a path to your game files, unless you have already done so.
+4. Inside the ExomodLoader folder, double-click `ExomodLoader.bat` and follow the prompts provided. You will need to provide a path to your game files, unless you have already done so.
 
 5. When ExomodLoader confirms that your mod has been applied, you're done! Enjoy your modded version of I Was a Teenage Exocolonist!
 
