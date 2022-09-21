@@ -1,5 +1,4 @@
-![exomoloader](https://user-images.githubusercontent.com/8042502/191161317-e6336900-96a2-404e-a03a-460020506f89.png)
-
+![exomodloader](https://user-images.githubusercontent.com/8042502/191408317-735f40d0-6d77-4091-a63f-7c62ac957725.png)
 
 # ExomodLoader
 
