@@ -1,0 +1,22 @@
+diff --git a/./temp/Stories/intro.exo b/./temp/ModStories/intro.exo
+index 92eb9b4..df3329c 100644
+--- a/./temp/Stories/intro.exo
++++ b/./temp/ModStories/intro.exo
+@@ -724,8 +724,16 @@
+ 		~set right = hidden
+ 		
+ 		Your earliest memories are of your fourth birthday. There's a big cake with a neat holo effect that _looks_ like fire, but when you reach out to touch it all you get is a handful of icing. Yummy!
++
++		// modded content
++		-
++		~set card = whiteFlower
++		Your mom also gives you a beautiful flower as a gift. It was dried and pressed flat to preserve it during the long journey.
++		You haven't seen flowers outside of picture books, and it's really pretty!
++		Later, when you're older, you'll look at the flower and think about how carefully and gently your mom must have folded down each soft petal.
+ 		
+-		Your favorite present is:
++		-		
++		Your other favorite present is:
+ 		
+ 		** Your mom's gardening trowel
+ 			~set mem_work_farm + 5
