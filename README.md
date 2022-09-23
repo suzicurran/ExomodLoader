@@ -1,4 +1,5 @@
-![exomodloader](https://user-images.githubusercontent.com/8042502/191408317-735f40d0-6d77-4091-a63f-7c62ac957725.png)
+![exomodloader_header](https://user-images.githubusercontent.com/8042502/192005542-971da186-05d1-48ce-a012-f74b5fdaf672.png)
+
 
 # ExomodLoader
 
@@ -22,9 +23,11 @@ Download the latest version from [Releases](https://github.com/suzicurran/Exomod
 
 3. In the ExomodLoader folder, place the exomod you'd like to use in "ModGoesHere" folder. (See help.txt for more.) If you don't have an exomod to apply and/or just want to test if ExomodLoader if working for you, a "simpleTestExomod" has been provided for you. Its changees should be quickly visible when starting any "normal" run after the first.
 
-4. Inside the ExomodLoader folder, double-click `ExomodLoader.bat` and follow the prompts provided. You will need to provide a path to your game files, unless you have already done so.
+4. Inside the ExomodLoader folder, double-click `ExomodLoader.bat` to launch the loader. Note: you may see a prompt from Microsoft Defender about the risks of running an app from an unknown publisher. These risks are valid! Definately check out the source code and have some idea what's inside. If you feel comfortable continuing, you can do so by clicking "More Info" and then "Run Anyway."
 
-5. When ExomodLoader confirms that your mod has been applied, you're done! Enjoy your modded version of I Was a Teenage Exocolonist!
+5. Follow the prompts provided. You will need to provide a path to your game files, unless you have already done so.
+
+6. When ExomodLoader confirms that your mod has been applied, you're done! Enjoy your modded version of I Was a Teenage Exocolonist!
 
 ## Roadmap
 
