@@ -18,6 +18,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 
 # User settings, persisting between runs
 [string] $settingsPath = ".\settings.json"
+[string] $defaultPathToGameFolder = "$(${ENV:ProgramFiles(x86)})\Steam\steamapps\common\Exocolonist"
+[string] $storiesFolderPathSuffix = "Exocolonist_Data\StreamingAssets\Stories"
 
 class ExomodLoaderSettingsFile {
     [int] $SettingsVersion
@@ -208,7 +210,17 @@ function getSettings() {
     if (!$isSettingsFromFile) {
         $newSettings = [ExomodLoaderSettingsFile]::new()
         $newSettings.SettingsVersion = 1;
-        $newSettings.PathToGameStoriesFolder = Read-Host -Prompt "Please enter the path of your game's unmodified Stories directory. Example: $(${ENV:ProgramFiles(x86)})\Steam\steamapps\common\Exocolonist\Exocolonist_Data\StreamingAssets\Stories"
+
+        # Prompt the user for the path to their game folder. Use the default path if none is provided.
+        $userGameDirectory = Read-Host -Prompt "Please provide the path of your game directory. Leave blank to use the default value: $($defaultPathToGameFolder)"
+
+        # Append the Stories folder to the base game path
+        if ($userGameDirectory -eq "") {
+            $newSettings.PathToGameStoriesFolder = "$defaultPathToGameFolder\$storiesFolderPathSuffix"
+        } else {
+            $newSettings.PathToGameStoriesFolder = "$userGameDirectory\$storiesFolderPathSuffix"
+        }
+
         validateStoriesFolderPath($newSettings.PathToGameStoriesFolder)
         Write-Host "New loader settings look good! Saving to settings.json for future use..."
 
