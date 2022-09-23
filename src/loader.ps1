@@ -212,7 +212,7 @@ function getSettings() {
         $newSettings.SettingsVersion = 1;
 
         # Prompt the user for the path to their game folder. Use the default path if none is provided.
-        $userGameDirectory = Read-Host -Prompt "Please enter the path of your game directory. Press enter to use the default value: $($defaultPathToGameFolder)"
+        $userGameDirectory = Read-Host -Prompt "Please provide the path of your game directory. Leave blank to use the default value: $($defaultPathToGameFolder)"
 
         # Append the Stories folder to the base game path
         if ($userGameDirectory -eq "") {
