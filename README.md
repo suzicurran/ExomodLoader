@@ -21,7 +21,7 @@ Download the latest version from [Releases](https://github.com/suzicurran/Exomod
 
 2. Verify your game files are up to date. You can do this by right-clicking the game in your Steam library, selecting Properties, navigating to "Local Files" and then selecting "Verify integrity of game files..." Note: If you previously had exomods installed, this will remove them.
 
-3. In the ExomodLoader folder, place the exomod you'd like to use in "ModGoesHere" folder. (See help.txt for more.) If you don't have an exomod to apply and/or just want to test if ExomodLoader if working for you, the "AGentleGift" exomod has been provided for you. Its changees should be quickly visible when starting any "normal" run after the first.
+3. In the ExomodLoader folder, place the exomod you'd like to use in "ModGoesHere" folder. (See help.txt for more.) If you don't have an exomod to apply and/or just want to test if ExomodLoader if working for you, the "ASmallGift" exomod has been provided for you. Its changees should be quickly visible when starting any "normal" run after the first.
 
 4. Inside the ExomodLoader folder, double-click `ExomodLoader.bat` to launch the loader. Note: you may see a prompt from Microsoft Defender about the risks of running an app from an unknown publisher. These risks are valid! Definately check out the source code and have some idea what's inside. If you feel comfortable continuing, you can do so by clicking "More Info" and then "Run Anyway."
 
