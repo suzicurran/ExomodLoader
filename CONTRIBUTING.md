@@ -17,7 +17,7 @@ We expect new pull requests to include complete descriptions, including testing 
 
 ## Community Behavior
 
-We expect contributors to uphold a welcoming and harassment-free environment for all. Examples of behavior that contributes to creating a positive environment include being respectful of differing viewpoints and experiences, gracefully accepting constructive criticism. Project maintainers can and will take corrective action in response to any instances of unacceptable behavior.
+We expect contributors to uphold a welcoming and harassment-free environment for all. Examples of behavior that contributes to creating a positive environment include being respectful of differing viewpoints and experiences, and gracefully accepting constructive criticism. Project maintainers can and will take corrective action in response to any instances of unacceptable behavior.
 
 
 
